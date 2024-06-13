@@ -2,26 +2,25 @@ import { Request, Response } from "express";
 
 export const home = async (req: Request, res: Response) => {
 
-
-    res.send('home');
+    res.render('pages/page');
 };
 
 export const dogs = async (req: Request, res: Response) => {
 
 
-    res.send('dogs');
+    res.render('pages/page');
 };
 
 export const cats = async (req: Request, res: Response) => {
 
 
-    res.send('cats');
+    res.render('pages/page');
 };
 
 export const fishes = async (req: Request, res: Response) => {
 
 
-    res.send('fishes');
+    res.render('pages/fishes');
 };
 
 export const notFound = async (req: Request, res: Response) => {
