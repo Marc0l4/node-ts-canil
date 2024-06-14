@@ -4,7 +4,6 @@ import mustache from "mustache-express";
 import path from "path";
 
 import mainRoutes from './routes/routes';
-
 import * as Page from './controllers/PageController';
 
 dotenv.config();
