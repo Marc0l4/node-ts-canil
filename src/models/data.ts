@@ -1,4 +1,14 @@
-[
+export type PetType = 'dog' | 'cat' | 'fish';
+export type PetSex = 'Masculino' | 'Feminino';
+export type Pet = {
+    type: PetType,
+    image: string,
+    name: string,
+    color: string,
+    sex: PetSex
+};
+
+export const data: Pet[] = [
     {
         type: 'dog',
         image: 'pastor-alemao.jpg',
